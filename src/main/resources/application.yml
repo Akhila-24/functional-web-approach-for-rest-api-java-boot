@@ -1,0 +1,10 @@
+server:
+  port: 8081
+spring:
+  config:
+    activate:
+      on-profile:
+        - local
+  data:
+    mongodb:
+      uri: mongodb://mongo:akhila@localhost:1090/admin
